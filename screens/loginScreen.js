@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, TextInput, StyleSheet, TouchableOpacity, Image } from "react-native";
 import { Ionicons } from '@expo/vector-icons';
 
+
 const LoginScreen = ({ navigation }) => {
     const [input ,setInput ] = useState('');
     const Continue = () => {
