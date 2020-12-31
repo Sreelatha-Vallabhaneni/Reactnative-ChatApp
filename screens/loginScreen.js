@@ -25,11 +25,6 @@ const LoginScreen = ({ navigation }) => {
               </View>
           </View>
       </View>
-      
-    // <Button
-    //   title="Go to Jane's profile"
-    //   onPress={() => navigation.navigate("Profile", { name: "Jane" })}
-    // />
   );
 };
 
